@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json())
-// app.use(express.urlencoded({extrended: true}));
+app.use(express.urlencoded({extrended: true}));
 app.use(cors());
 
 app.get('/', (req, res) => {
