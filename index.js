@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
   res.json({Status: "Success", Message: "Server is Online"})
 });
 
+app.use((err, req, res, next) => {
+    console.log(err);
+    res.status(500).send({ message: err.message });
+});
+
 app.use('/contact', contactRoute);
 app.use('/search', searchRoute);
 app.use('/register', registerRoute);
