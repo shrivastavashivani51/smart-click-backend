@@ -4,7 +4,7 @@ To download the zipfile of code, click [download](https://github.com/team-codebr
 
 ## Software Requirement
 
-[Click here to download NodeJs](https://nodejs.org/en/)
+[Click here to download NodeJs](https://nodejs.org/en/) \
 Note: Choose the LTS (Long Term Support) version for NodeJs.
 
 ## Install Dependencies
