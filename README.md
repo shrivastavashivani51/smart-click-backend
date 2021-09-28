@@ -1,3 +1,7 @@
+## Code
+
+To download the zipfile of code, click [download](https://github.com/team-codebrigade/smart-click-backend/archive/refs/heads/master.zip)
+
 ## Software Requirement
 
 [Click here to download NodeJs](https://nodejs.org/en/)
